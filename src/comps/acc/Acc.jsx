@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Acc_item from "./Acc_item";
-// import "./style/style.scss";
 
 function Acc(props) {
   const [activeIndex, setActiveIndex] = useState(null);
