@@ -1,0 +1,25 @@
+.progress__container {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  > p {
+    text-align: center;
+  }
+}
+
+.progressbar {
+  flex-direction: row;
+  height: 20px;
+  width: 100%;
+  background-color: aqua;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+.progressbar__progress {
+  background-color: greenyellow;
+  height: 100%;
+  border-radius: 5px;
+}

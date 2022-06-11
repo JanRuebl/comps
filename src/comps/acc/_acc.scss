@@ -1,0 +1,21 @@
+.acc {
+  border: 2px solid;
+  width: 40vw;
+}
+.acc_item {
+  border: 1px solid;
+  padding: 20px;
+}
+.acc_item_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.acc_item_sub {
+  &--closed {
+    display: none;
+  }
+  &--active {
+    display: block;
+  }
+}
